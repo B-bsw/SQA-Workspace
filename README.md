@@ -9,4 +9,15 @@ I would like to take this opportunity to thank all the contributors around the g
 <div align="center">
     <img src="https://i.pinimg.com/originals/88/dc/6f/88dc6f10faff36878581024c210e3834.gif" alt="img" width="100%">
 </div>
+<<<<<<< HEAD
 >>>>>>> 82a3c5f (feat: add readme)
+=======
+
+```text
+├── lab
+│   └── lab03-01
+├── LabAssignment
+│   └── Lab3_JUnitTest
+└── README.md
+```
+>>>>>>> f6baab4 (feat: update readme)
