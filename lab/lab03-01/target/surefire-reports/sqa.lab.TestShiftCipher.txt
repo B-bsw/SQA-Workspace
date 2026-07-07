@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: sqa.lab.TestShiftCipher
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.027 s <<< FAILURE! -- in sqa.lab.TestShiftCipher
+sqa.lab.TestShiftCipher.testCase01 -- Time elapsed: 0.012 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <ZVMADHYL> but was: <VRIWZDUH>
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1199)
+	at sqa.lab.TestShiftCipher.testCase01(TestShiftCipher.java:12)
+
+sqa.lab.TestShiftCipher.testCase02 -- Time elapsed: 0.004 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <zvmadhyl> but was: <invalid>
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1199)
+	at sqa.lab.TestShiftCipher.testCase02(TestShiftCipher.java:17)
+
+sqa.lab.TestShiftCipher.testCase04 -- Time elapsed: 0.001 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <gkfs> but was: <invalid>
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1199)
+	at sqa.lab.TestShiftCipher.testCase04(TestShiftCipher.java:27)
+
