@@ -9,7 +9,9 @@ CP353201 Software Quality Assurance [1/2569]
 >>>>>>> 63c46de (feat: update readme)
 
 ```text
-├── lab
+├── dosc
+│   └── lab03
+├── Lab
 │   └── lab03-01
 ├── LabAssignment
 │   └── Lab3_JUnitTest
