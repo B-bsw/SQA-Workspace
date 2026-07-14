@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>HealthIndexScore</name>
+	<name>junit6-labdemo</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -10,15 +10,19 @@
 			<arguments>
 			</arguments>
 		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.m2e.core.maven2Builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
 	</buildSpec>
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
+		<nature>org.eclipse.m2e.core.maven2Nature</nature>
 	</natures>
-<<<<<<< HEAD
-=======
 	<filteredResources>
 		<filter>
-			<id>1784003979102</id>
+			<id>1783528452820</id>
 			<name></name>
 			<type>30</type>
 			<matcher>
@@ -27,5 +31,4 @@
 			</matcher>
 		</filter>
 	</filteredResources>
->>>>>>> 9f269b3 (update lab4)
 </projectDescription>
