@@ -1,0 +1,49 @@
+-------------------------------------------------------------------------------
+Test set: com.example.junit6_labdemo.ExampleNullEmptyStringTest
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 9, Errors: 0, Skipped: 0, Time elapsed: 0.054 s <<< FAILURE! -- in com.example.junit6_labdemo.ExampleNullEmptyStringTest
+com.example.junit6_labdemo.ExampleNullEmptyStringTest.test_nullEmptyAndBlankStrings_WithNullAndEmptySource(String)[3] -- Time elapsed: 0.003 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:190)
+	at com.example.junit6_labdemo.ExampleNullEmptyStringTest.test_nullEmptyAndBlankStrings_WithNullAndEmptySource(ExampleNullEmptyStringTest.java:54)
+
+com.example.junit6_labdemo.ExampleNullEmptyStringTest.test_nullEmptyAndBlankStrings_WithNullAndEmptySource(String)[4] -- Time elapsed: 0.001 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:190)
+	at com.example.junit6_labdemo.ExampleNullEmptyStringTest.test_nullEmptyAndBlankStrings_WithNullAndEmptySource(ExampleNullEmptyStringTest.java:54)
+
+com.example.junit6_labdemo.ExampleNullEmptyStringTest.test_nullEmptyAndBlankStrings_WithNullAndEmptySource(String)[5] -- Time elapsed: 0.001 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:190)
+	at com.example.junit6_labdemo.ExampleNullEmptyStringTest.test_nullEmptyAndBlankStrings_WithNullAndEmptySource(ExampleNullEmptyStringTest.java:54)
+
+com.example.junit6_labdemo.ExampleNullEmptyStringTest.test_nullEmptyAndBlankStrings_WithNullAndEmptySource(String)[6] -- Time elapsed: 0.001 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:190)
+	at com.example.junit6_labdemo.ExampleNullEmptyStringTest.test_nullEmptyAndBlankStrings_WithNullAndEmptySource(ExampleNullEmptyStringTest.java:54)
+
+com.example.junit6_labdemo.ExampleNullEmptyStringTest.test_ispalindromeWithValueSource(String)[5] -- Time elapsed: 0 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:190)
+	at com.example.junit6_labdemo.ExampleNullEmptyStringTest.test_ispalindromeWithValueSource(ExampleNullEmptyStringTest.java:22)
+
+com.example.junit6_labdemo.ExampleNullEmptyStringTest.test_nullEmptyAndBlankStrings(String)[3] -- Time elapsed: 0 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:190)
+	at com.example.junit6_labdemo.ExampleNullEmptyStringTest.test_nullEmptyAndBlankStrings(ExampleNullEmptyStringTest.java:46)
+
+com.example.junit6_labdemo.ExampleNullEmptyStringTest.test_nullEmptyAndBlankStrings(String)[4] -- Time elapsed: 0 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:190)
+	at com.example.junit6_labdemo.ExampleNullEmptyStringTest.test_nullEmptyAndBlankStrings(ExampleNullEmptyStringTest.java:46)
+
+com.example.junit6_labdemo.ExampleNullEmptyStringTest.test_nullEmptyAndBlankStrings(String)[5] -- Time elapsed: 0 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:190)
+	at com.example.junit6_labdemo.ExampleNullEmptyStringTest.test_nullEmptyAndBlankStrings(ExampleNullEmptyStringTest.java:46)
+
+com.example.junit6_labdemo.ExampleNullEmptyStringTest.test_nullEmptyAndBlankStrings(String)[6] -- Time elapsed: 0 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:190)
+	at com.example.junit6_labdemo.ExampleNullEmptyStringTest.test_nullEmptyAndBlankStrings(ExampleNullEmptyStringTest.java:46)
+

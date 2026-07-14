@@ -1,0 +1,64 @@
+-------------------------------------------------------------------------------
+Test set: com.example.junit6_labdemo.ExampleParameterizedTest
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 12, Errors: 0, Skipped: 0, Time elapsed: 0.053 s <<< FAILURE! -- in com.example.junit6_labdemo.ExampleParameterizedTest
+com.example.junit6_labdemo.ExampleParameterizedTest.test_isEvenNumberWithValueSource(int)[1] -- Time elapsed: 0.013 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:190)
+	at com.example.junit6_labdemo.ExampleParameterizedTest.test_isEvenNumberWithValueSource(ExampleParameterizedTest.java:24)
+
+com.example.junit6_labdemo.ExampleParameterizedTest.test_isEvenNumberWithValueSource(int)[3] -- Time elapsed: 0.002 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:190)
+	at com.example.junit6_labdemo.ExampleParameterizedTest.test_isEvenNumberWithValueSource(ExampleParameterizedTest.java:24)
+
+com.example.junit6_labdemo.ExampleParameterizedTest.test_isEvenNumberWithValueSource(int)[4] -- Time elapsed: 0.001 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:190)
+	at com.example.junit6_labdemo.ExampleParameterizedTest.test_isEvenNumberWithValueSource(ExampleParameterizedTest.java:24)
+
+com.example.junit6_labdemo.ExampleParameterizedTest.test_isEvenNumberWithValueSource(int)[6] -- Time elapsed: 0.001 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:190)
+	at com.example.junit6_labdemo.ExampleParameterizedTest.test_isEvenNumberWithValueSource(ExampleParameterizedTest.java:24)
+
+com.example.junit6_labdemo.ExampleParameterizedTest.test_isZeroWithValueSource(int)[1] -- Time elapsed: 0.001 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <0> but was: <1>
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:569)
+	at com.example.junit6_labdemo.ExampleParameterizedTest.test_isZeroWithValueSource(ExampleParameterizedTest.java:31)
+
+com.example.junit6_labdemo.ExampleParameterizedTest.test_isZeroWithValueSource(int)[2] -- Time elapsed: 0.001 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <0> but was: <4>
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:569)
+	at com.example.junit6_labdemo.ExampleParameterizedTest.test_isZeroWithValueSource(ExampleParameterizedTest.java:31)
+
+com.example.junit6_labdemo.ExampleParameterizedTest.test_isZeroWithValueSource(int)[3] -- Time elapsed: 0.001 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <0> but was: <5>
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:569)
+	at com.example.junit6_labdemo.ExampleParameterizedTest.test_isZeroWithValueSource(ExampleParameterizedTest.java:31)
+
+com.example.junit6_labdemo.ExampleParameterizedTest.test_isZeroWithValueSource(int)[4] -- Time elapsed: 0.001 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <0> but was: <-3>
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:569)
+	at com.example.junit6_labdemo.ExampleParameterizedTest.test_isZeroWithValueSource(ExampleParameterizedTest.java:31)
+
+com.example.junit6_labdemo.ExampleParameterizedTest.test_isZeroWithValueSource(int)[5] -- Time elapsed: 0.001 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <0> but was: <10>
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:569)
+	at com.example.junit6_labdemo.ExampleParameterizedTest.test_isZeroWithValueSource(ExampleParameterizedTest.java:31)
+
+com.example.junit6_labdemo.ExampleParameterizedTest.test_isZeroWithValueSource(int)[6] -- Time elapsed: 0 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <0> but was: <2147483647>
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:569)
+	at com.example.junit6_labdemo.ExampleParameterizedTest.test_isZeroWithValueSource(ExampleParameterizedTest.java:31)
+
+com.example.junit6_labdemo.ExampleParameterizedTest.test_isOddNumberWithValueSource(int)[2] -- Time elapsed: 0 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:190)
+	at com.example.junit6_labdemo.ExampleParameterizedTest.test_isOddNumberWithValueSource(ExampleParameterizedTest.java:17)
+
+com.example.junit6_labdemo.ExampleParameterizedTest.test_isOddNumberWithValueSource(int)[5] -- Time elapsed: 0 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:190)
+	at com.example.junit6_labdemo.ExampleParameterizedTest.test_isOddNumberWithValueSource(ExampleParameterizedTest.java:17)
+

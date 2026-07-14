@@ -21,10 +21,16 @@
 		<nature>org.eclipse.m2e.core.maven2Nature</nature>
 	</natures>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	<filteredResources>
 		<filter>
 			<id>1784003979104</id>
+=======
+	<filteredResources>
+		<filter>
+			<id>1784009761899</id>
+>>>>>>> 85f754b (feat: add Lab04-01)
 			<name></name>
 			<type>30</type>
 			<matcher>
@@ -33,5 +39,8 @@
 			</matcher>
 		</filter>
 	</filteredResources>
+<<<<<<< HEAD
 >>>>>>> 9f269b3 (update lab4)
+=======
+>>>>>>> 85f754b (feat: add Lab04-01)
 </projectDescription>
