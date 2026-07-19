@@ -14,6 +14,7 @@ class ExampleCsvFileSourceTest {
         files = "src/test/resources/thaifruitrank.csv",
         numLinesToSkip = 1
     )
+
     @DisplayName("Get test data from .csv file")
     void testWithCsvFileSourceFromFile(String fruit, int rank) {
         assertNotNull(fruit);
