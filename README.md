@@ -12,7 +12,7 @@ workspace/
   ├── LabDemo // ตัวอย่าง Lab
   │   ├── Lab3_JUnit
   │   └── Lab4_BVT
-  ├── INTRODUCTION.md
+  ├── INTRODUCTION.mdg
   ├── README.md
   └── STUDENT.md
 ```
