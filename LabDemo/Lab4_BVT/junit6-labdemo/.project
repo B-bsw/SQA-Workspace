@@ -20,4 +20,27 @@
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.eclipse.m2e.core.maven2Nature</nature>
 	</natures>
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+	<filteredResources>
+		<filter>
+			<id>1784003979104</id>
+=======
+	<filteredResources>
+		<filter>
+			<id>1784009761899</id>
+>>>>>>> 85f754b (feat: add Lab04-01)
+			<name></name>
+			<type>30</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>node_modules|\.git|__CREATED_BY_JAVA_LANGUAGE_SERVER__</arguments>
+			</matcher>
+		</filter>
+	</filteredResources>
+<<<<<<< HEAD
+>>>>>>> 9f269b3 (update lab4)
+=======
+>>>>>>> 85f754b (feat: add Lab04-01)
 </projectDescription>

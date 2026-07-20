@@ -9,11 +9,15 @@ import org.junit.jupiter.params.provider.CsvFileSource;
 
 class ExampleCsvFileSourceTest {
 
-	@ParameterizedTest
-	@CsvFileSource(files = "src/test/resources/thaifruitrank.csv", numLinesToSkip = 1)
-	@DisplayName("Get test data from .csv file")
-	void testWithCsvFileSourceFromFile(String fruit, int rank) {
-	    assertNotNull(fruit);
-	    assertNotEquals(0, rank);
-	}
+    @ParameterizedTest
+    @CsvFileSource(
+        files = "src/test/resources/thaifruitrank.csv",
+        numLinesToSkip = 1
+    )
+
+    @DisplayName("Get test data from .csv file")
+    void testWithCsvFileSourceFromFile(String fruit, int rank) {
+        assertNotNull(fruit);
+        assertNotEquals(0, rank);
+    }
 }

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.junit6_labdemo.SimpleRepeatedTest" time="0.033" tests="15" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/bb/Desktop/class/sqa/workspace/LabDemo/Lab4_BVT/junit6-labdemo/target/test-classes:/Users/bb/Desktop/class/sqa/workspace/LabDemo/Lab4_BVT/junit6-labdemo/target/classes:/Users/bb/.m2/repository/org/junit/jupiter/junit-jupiter/6.1.1/junit-jupiter-6.1.1.jar:/Users/bb/.m2/repository/org/junit/jupiter/junit-jupiter-api/6.1.1/junit-jupiter-api-6.1.1.jar:/Users/bb/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/bb/.m2/repository/org/junit/platform/junit-platform-commons/6.1.1/junit-platform-commons-6.1.1.jar:/Users/bb/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/bb/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/bb/.m2/repository/org/junit/jupiter/junit-jupiter-params/6.1.1/junit-jupiter-params-6.1.1.jar:/Users/bb/.m2/repository/org/junit/jupiter/junit-jupiter-engine/6.1.1/junit-jupiter-engine-6.1.1.jar:/Users/bb/.m2/repository/org/junit/platform/junit-platform-engine/6.1.1/junit-platform-engine-6.1.1.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="TH"/>
+    <property name="sun.boot.library.path" value="/Users/bb/.sdkman/candidates/java/25-oracle/lib"/>
+    <property name="sun.java.command" value="/Users/bb/Desktop/class/sqa/workspace/LabDemo/Lab4_BVT/junit6-labdemo/target/surefire/surefirebooter-20260714133816382_3.jar /Users/bb/Desktop/class/sqa/workspace/LabDemo/Lab4_BVT/junit6-labdemo/target/surefire 2026-07-14T13-38-16_339-jvmRun1 surefire-20260714133816382_1tmp surefire_0-20260714133816382_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="SimpleRepeatedTest"/>
+    <property name="surefire.test.class.path" value="/Users/bb/Desktop/class/sqa/workspace/LabDemo/Lab4_BVT/junit6-labdemo/target/test-classes:/Users/bb/Desktop/class/sqa/workspace/LabDemo/Lab4_BVT/junit6-labdemo/target/classes:/Users/bb/.m2/repository/org/junit/jupiter/junit-jupiter/6.1.1/junit-jupiter-6.1.1.jar:/Users/bb/.m2/repository/org/junit/jupiter/junit-jupiter-api/6.1.1/junit-jupiter-api-6.1.1.jar:/Users/bb/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/bb/.m2/repository/org/junit/platform/junit-platform-commons/6.1.1/junit-platform-commons-6.1.1.jar:/Users/bb/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/bb/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/bb/.m2/repository/org/junit/jupiter/junit-jupiter-params/6.1.1/junit-jupiter-params-6.1.1.jar:/Users/bb/.m2/repository/org/junit/jupiter/junit-jupiter-engine/6.1.1/junit-jupiter-engine-6.1.1.jar:/Users/bb/.m2/repository/org/junit/platform/junit-platform-engine/6.1.1/junit-platform-engine-6.1.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/bb"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-09-16"/>
+    <property name="java.home" value="/Users/bb/.sdkman/candidates/java/25-oracle"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/bb/Desktop/class/sqa/workspace/LabDemo/Lab4_BVT/junit6-labdemo"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/bb/Desktop/class/sqa/workspace/LabDemo/Lab4_BVT/junit6-labdemo/target/surefire/surefirebooter-20260714133816382_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="25+37-LTS-3491"/>
+    <property name="user.name" value="bb"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="26.5.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/bb/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/_c/bhfq_dq542v3xgprq8g8_qxc0000gn/T/"/>
+    <property name="java.version" value="25"/>
+    <property name="user.dir" value="/Users/bb/Desktop/class/sqa/workspace/LabDemo/Lab4_BVT/junit6-labdemo"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/bb/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25+37-LTS-3491"/>
+    <property name="stdin.encoding" value="UTF-8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="longdisplaynameRepeatedTest" classname="com.example.junit6_labdemo.SimpleRepeatedTest" time="0.007">
+    <system-out><![CDATA[Show long display name and repeat for 5 times.
+]]></system-out>
+  </testcase>
+  <testcase name="longdisplaynameRepeatedTest" classname="com.example.junit6_labdemo.SimpleRepeatedTest" time="0.003">
+    <system-out><![CDATA[Show long display name and repeat for 5 times.
+]]></system-out>
+  </testcase>
+  <testcase name="longdisplaynameRepeatedTest" classname="com.example.junit6_labdemo.SimpleRepeatedTest" time="0.0">
+    <system-out><![CDATA[Show long display name and repeat for 5 times.
+]]></system-out>
+  </testcase>
+  <testcase name="longdisplaynameRepeatedTest" classname="com.example.junit6_labdemo.SimpleRepeatedTest" time="0.0">
+    <system-out><![CDATA[Show long display name and repeat for 5 times.
+]]></system-out>
+  </testcase>
+  <testcase name="longdisplaynameRepeatedTest" classname="com.example.junit6_labdemo.SimpleRepeatedTest" time="0.001">
+    <system-out><![CDATA[Show long display name and repeat for 5 times.
+]]></system-out>
+  </testcase>
+  <testcase name="shortdisplaynameRepeatedTest" classname="com.example.junit6_labdemo.SimpleRepeatedTest" time="0.0">
+    <system-out><![CDATA[Show short display name and repeat for 5 times.
+]]></system-out>
+  </testcase>
+  <testcase name="shortdisplaynameRepeatedTest" classname="com.example.junit6_labdemo.SimpleRepeatedTest" time="0.0">
+    <system-out><![CDATA[Show short display name and repeat for 5 times.
+]]></system-out>
+  </testcase>
+  <testcase name="shortdisplaynameRepeatedTest" classname="com.example.junit6_labdemo.SimpleRepeatedTest" time="0.0">
+    <system-out><![CDATA[Show short display name and repeat for 5 times.
+]]></system-out>
+  </testcase>
+  <testcase name="shortdisplaynameRepeatedTest" classname="com.example.junit6_labdemo.SimpleRepeatedTest" time="0.001">
+    <system-out><![CDATA[Show short display name and repeat for 5 times.
+]]></system-out>
+  </testcase>
+  <testcase name="shortdisplaynameRepeatedTest" classname="com.example.junit6_labdemo.SimpleRepeatedTest" time="0.0">
+    <system-out><![CDATA[Show short display name and repeat for 5 times.
+]]></system-out>
+  </testcase>
+  <testcase name="simplerepeatedtest" classname="com.example.junit6_labdemo.SimpleRepeatedTest" time="0.0">
+    <system-out><![CDATA[This test is repeated 5 times.
+]]></system-out>
+  </testcase>
+  <testcase name="simplerepeatedtest" classname="com.example.junit6_labdemo.SimpleRepeatedTest" time="0.0">
+    <system-out><![CDATA[This test is repeated 5 times.
+]]></system-out>
+  </testcase>
+  <testcase name="simplerepeatedtest" classname="com.example.junit6_labdemo.SimpleRepeatedTest" time="0.001">
+    <system-out><![CDATA[This test is repeated 5 times.
+]]></system-out>
+  </testcase>
+  <testcase name="simplerepeatedtest" classname="com.example.junit6_labdemo.SimpleRepeatedTest" time="0.0">
+    <system-out><![CDATA[This test is repeated 5 times.
+]]></system-out>
+  </testcase>
+  <testcase name="simplerepeatedtest" classname="com.example.junit6_labdemo.SimpleRepeatedTest" time="0.0">
+    <system-out><![CDATA[This test is repeated 5 times.
+]]></system-out>
+  </testcase>
+</testsuite>
