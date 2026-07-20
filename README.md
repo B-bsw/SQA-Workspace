@@ -12,8 +12,9 @@ workspace/
   ├── LabDemo // ตัวอย่าง Lab
   │   ├── Lab3_JUnit
   │   └── Lab4_BVT
-  ├── PROJECT_STRUCTURE.md
-  └── README.md
+  ├── INTRODUCTION.md
+  ├── README.md
+  └── STUDENT.md
 ```
 
 <div align="center">
