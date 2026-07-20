@@ -1,7 +1,12 @@
 # Testing
 
 ```bash
-  mvn test -Dtest=TestNormalBoundary
+# for test NormalBoundary
+mvn test -Dtest=TestNormalBoundary
 
-  mvn test -Dtest=TestRobustness
+# for test Robustness
+mvn test -Dtest=TestRobustness
+
+# or both
+mvn test
 ```
