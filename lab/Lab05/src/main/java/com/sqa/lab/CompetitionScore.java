@@ -4,12 +4,16 @@ package com.sqa.lab;
  * * CP353201 Software Quality Assurance (1/2569)
  * Lab#5.2 – Equivalence class testing
  * Instructor: Asst.Prof. Chitsutha Soomlek
+<<<<<<< HEAD
 
+=======
+
+>>>>>>> 4052da0 (Lab05: add)
  * CompetitionScore Class
  * Find the final score by using the highest score out of 3 attempts in a competition
  * Maximum score = 500
  */
-public class CompetitionScore  {
+public class CompetitionScore {
 
     private static final int MIN_SCORE = 0;
     private static final int MAX_SCORE = 500;
@@ -54,7 +58,11 @@ public class CompetitionScore  {
 
         if (scores.length != TOTAL_ATTEMPTS) {
             throw new IllegalArgumentException(
-                "There should be " + TOTAL_ATTEMPTS + " scores but found " + scores.length + " attempts."
+                "There should be " +
+                    TOTAL_ATTEMPTS +
+                    " scores but found " +
+                    scores.length +
+                    " attempts."
             );
         }
 
@@ -67,7 +75,6 @@ public class CompetitionScore  {
                 maxScore = scores[i];
             }
         }
-
         return maxScore;
     }
 
@@ -79,8 +86,13 @@ public class CompetitionScore  {
     private void validateScore(int score) {
         if (score < MIN_SCORE || score > MAX_SCORE) {
             throw new IllegalArgumentException(
-                "The valid range of a score is " + MIN_SCORE + " to " + MAX_SCORE +
-                ". But, the input score is " + score + "."
+                "The valid range of a score is " +
+                    MIN_SCORE +
+                    " to " +
+                    MAX_SCORE +
+                    ". But, the input score is " +
+                    score +
+                    "."
             );
         }
     }
