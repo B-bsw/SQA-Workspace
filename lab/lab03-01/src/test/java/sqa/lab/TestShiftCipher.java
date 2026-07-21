@@ -19,27 +19,11 @@ public class TestShiftCipher {
 
     @Test // TC03
     void testCase03() {
-<<<<<<< HEAD
-<<<<<<< HEAD
         assertEquals("GKFS", shiftCipher.shift("DHCP", 3));
-=======
-        assertEquals("", shiftCipher.shift("ABCD", 3));
->>>>>>> daa020d (feat: add testing)
-=======
-        assertEquals("GKFS", shiftCipher.shift("DHCP", 3));
->>>>>>> d202359 (feat: add file xlsx and improved Testing)
     }
 
     @Test // TC04
     void testCase04() {
-<<<<<<< HEAD
-<<<<<<< HEAD
         assertEquals("gkfs", shiftCipher.shift("dhcp", 3));
-=======
-        assertEquals("", shiftCipher.shift("DHCP", 3));
->>>>>>> daa020d (feat: add testing)
-=======
-        assertEquals("gkfs", shiftCipher.shift("dhcp", 3));
->>>>>>> d202359 (feat: add file xlsx and improved Testing)
     }
 }
