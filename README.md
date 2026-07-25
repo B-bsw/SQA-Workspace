@@ -1,18 +1,22 @@
 ```text
 workspace/
-  ├── dosc // ไฟล์ต่างๆ เช่น excel, temple, screenshot
+  ├── dosc // ไฟล์ต่างๆ เช่น excel, temple, screenshot, other...
   │   ├── lab03
-  │   └── lab04
+  │   ├── lab04
+  |   └── lab05
   ├── Lab // งานใน Lab
   │   ├── lab03-01
-  │   └── lab04
+  │   ├── lab04
+  │   └── Lab05
   ├── LabAssignment // งานที่ได้รับหมอบหมาย
   │   ├── Lab3_JUnitTest
-  │   └── Lab4_BVT
+  │   ├── Lab4_BVT
+  │   └── Lab5_EC
   ├── LabDemo // ตัวอย่าง Lab
   │   ├── Lab3_JUnit
-  │   └── Lab4_BVT
-  ├── INTRODUCTION.mdg
+  │   ├── Lab4_BVT
+  │   └── Lab5_EC
+  ├── INTRODUCTION.md // Original README
   ├── README.md
   └── STUDENT.md
 ```
