@@ -2,16 +2,20 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 import com.sqa.lab.ShiftCipher;
-import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.*;
+import org.junit.jupiter.api.MethodOrderer.OrderAnnotation;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 
+@TestClassOrder(ClassOrderer.OrderAnnotation.class)
+@TestMethodOrder(OrderAnnotation.class)
 public class TestShiftCipher {
 
+    @Order(1)
     @ParameterizedTest
     @CsvFileSource(files = "src/test/resources/ShiftCipherEncrypt.csv")
-    @DisplayName("Test Encrypt")
-    void shouldEncryptCorrectly(
+    @DisplayName("Test ShiftCipher Encrypt")
+    void Encrypt(
             String input,
             int key,
             String expected
@@ -27,10 +31,11 @@ public class TestShiftCipher {
         }
     }
 
+    @Order(2)
     @ParameterizedTest
-    @CsvFileSource(files = "src/test/resources/ShiftCipher.csv")
-    @DisplayName("Test Decrypt")
-    void shouldDecryptCorrectly(
+    @CsvFileSource(files = "src/test/resources/ShiftCipherDecrypt.csv")
+    @DisplayName("Test ShiftCipher Decrypt")
+    void Decrypt(
             String input,
             int key,
             String expected

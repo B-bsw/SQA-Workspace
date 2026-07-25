@@ -1,7 +1,4 @@
-# Lab05
-
-## cmd for testing
-
+# How to run Testing
 > TestShiftCipher
 
 ```bash
@@ -11,4 +8,11 @@ mvn test -Dtest=TestShiftCipher
 mvn test -Dtest=TestShiftCipher#Encrypt
 # Decrypt
 mvn test -Dtest=TestShiftCipher#Decrypt
+```
+
+> TestCompetitionScore
+
+```bash
+# run test
+mvn test -Dtest=TestCompetitionScore
 ```
