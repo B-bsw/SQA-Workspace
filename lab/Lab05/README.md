@@ -13,6 +13,10 @@ mvn test -Dtest=TestShiftCipher#Decrypt
 > TestCompetitionScore
 
 ```bash
-# run test
+# both
 mvn test -Dtest=TestCompetitionScore
+# testFindMaxScore3
+mvn test -Dtest=TestCompetitionScore#testFindMaxScore3
+# testFindMaxScoreArray
+mvn test -Dtest=TestCompetitionScore#testFindMaxScoreArray
 ```
