@@ -1,9 +1,10 @@
 import static org.junit.jupiter.api.Assertions.*;
 
-import com.sqa.lab.CompetitionScore;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
+
+import com.sqa.lab.CompetitionScore;
 
 public class TestCompetitionScore {
 
