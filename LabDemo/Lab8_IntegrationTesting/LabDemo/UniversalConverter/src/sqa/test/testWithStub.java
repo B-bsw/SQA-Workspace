@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 /*
  * Call stub to replace DistanceConverter
- * 
+ *
  * @author Asst.Prof.Chitsutha Soomlek, College of Computing, KKU
  * @version 1.1
  */
@@ -19,7 +19,7 @@ class testWithStub {
 		double expectedResult = 1000.0;
 		assertEquals(expectedResult, stub.convert(1, "kilometer", "meter"));
 	}
-	
+
 	@Test
 	void testDistanceConverter_5km_to_5000m() {
 		Stub stub = new Stub();
