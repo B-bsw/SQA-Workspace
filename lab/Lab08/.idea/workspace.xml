@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aa4a4ef6-101f-423b-8216-dde9814fd498" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../LabDemo/Lab8_IntegrationTesting/LabDemo/UniversalConverter/UniversalConverter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabDemo/Lab8_IntegrationTesting/LabDemo/UniversalConverter/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabDemo/Lab8_IntegrationTesting/LabDemo/UniversalConverter/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabDemo/Lab8_IntegrationTesting/LabDemo/UniversalConverter/bin/sqa/main/DistanceConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../LabDemo/Lab8_IntegrationTesting/LabDemo/UniversalConverter/bin/sqa/main/DistanceConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabDemo/Lab8_IntegrationTesting/LabDemo/UniversalConverter/bin/sqa/main/TemperatureConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../LabDemo/Lab8_IntegrationTesting/LabDemo/UniversalConverter/bin/sqa/main/TemperatureConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabDemo/Lab8_IntegrationTesting/LabDemo/UniversalConverter/bin/sqa/main/WeightConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../LabDemo/Lab8_IntegrationTesting/LabDemo/UniversalConverter/bin/sqa/main/WeightConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabDemo/Lab8_IntegrationTesting/LabDemo/UniversalConverter/bin/sqa/test/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../LabDemo/Lab8_IntegrationTesting/LabDemo/UniversalConverter/bin/sqa/test/Driver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabDemo/Lab8_IntegrationTesting/LabDemo/UniversalConverter/bin/sqa/test/Stub.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../LabDemo/Lab8_IntegrationTesting/LabDemo/UniversalConverter/bin/sqa/test/Stub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabDemo/Lab8_IntegrationTesting/LabDemo/UniversalConverter/bin/sqa/test/testWithStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../LabDemo/Lab8_IntegrationTesting/LabDemo/UniversalConverter/bin/sqa/test/testWithStub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabDemo/Lab8_IntegrationTesting/LabDemo/UniversalConverter/src/sqa/main/DistanceConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../LabDemo/Lab8_IntegrationTesting/LabDemo/UniversalConverter/src/sqa/main/DistanceConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabDemo/Lab8_IntegrationTesting/LabDemo/UniversalConverter/src/sqa/main/TemperatureConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../LabDemo/Lab8_IntegrationTesting/LabDemo/UniversalConverter/src/sqa/main/TemperatureConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabDemo/Lab8_IntegrationTesting/LabDemo/UniversalConverter/src/sqa/main/WeightConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../LabDemo/Lab8_IntegrationTesting/LabDemo/UniversalConverter/src/sqa/main/WeightConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabDemo/Lab8_IntegrationTesting/LabDemo/UniversalConverter/src/sqa/test/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../LabDemo/Lab8_IntegrationTesting/LabDemo/UniversalConverter/src/sqa/test/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabDemo/Lab8_IntegrationTesting/LabDemo/UniversalConverter/src/sqa/test/Stub.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../LabDemo/Lab8_IntegrationTesting/LabDemo/UniversalConverter/src/sqa/test/Stub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabDemo/Lab8_IntegrationTesting/LabDemo/UniversalConverter/src/sqa/test/testWithStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../LabDemo/Lab8_IntegrationTesting/LabDemo/UniversalConverter/src/sqa/test/testWithStub.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="3HxRkQcIGxzPVhuxJj1wMYOx2CC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.BottomUpIntegrationTest.executor": "Run",
+    "JUnit.BottomUpIntegrationTest.integrateAllModules_throughUniversalConverter_weight.executor": "Run",
+    "JUnit.TestWeightStub.executor": "Run",
+    "JUnit.TopDownIntegrationTest.testUniversalConverter_dispatchesToDistanceStub.executor": "Run",
+    "JUnit.TopDownIntegrationTest.testUniversalConverter_dispatchesToTemperatureStub.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.TopDownIntegrationTest.testUniversalConverter_dispatchesToTemperatureStub">
+    <configuration name="BottomUpIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab08" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BottomUpIntegrationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BottomUpIntegrationTest.integrateAllModules_throughUniversalConverter_weight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab08" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BottomUpIntegrationTest" />
+      <option name="METHOD_NAME" value="integrateAllModules_throughUniversalConverter_weight" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TopDownIntegrationTest.testUniversalConverter_dispatchesToDistanceStub" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab08" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TopDownIntegrationTest" />
+      <option name="METHOD_NAME" value="testUniversalConverter_dispatchesToDistanceStub" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TopDownIntegrationTest.testUniversalConverter_dispatchesToTemperatureStub" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab08" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TopDownIntegrationTest" />
+      <option name="METHOD_NAME" value="testUniversalConverter_dispatchesToTemperatureStub" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TopDownIntegrationTest.testUniversalConverter_dispatchesToWeightStub" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab08" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TopDownIntegrationTest" />
+      <option name="METHOD_NAME" value="testUniversalConverter_dispatchesToWeightStub" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TopDownIntegrationTest.testUniversalConverter_dispatchesToTemperatureStub" />
+        <item itemvalue="JUnit.TopDownIntegrationTest.testUniversalConverter_dispatchesToWeightStub" />
+        <item itemvalue="JUnit.TopDownIntegrationTest.testUniversalConverter_dispatchesToDistanceStub" />
+        <item itemvalue="JUnit.BottomUpIntegrationTest.integrateAllModules_throughUniversalConverter_weight" />
+        <item itemvalue="JUnit.BottomUpIntegrationTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aa4a4ef6-101f-423b-8216-dde9814fd498" name="Changes" comment="" />
+      <created>1786807875366</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1786807875366</updated>
+    </task>
+    <servers />
+  </component>
+</project>

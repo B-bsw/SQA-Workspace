@@ -1,14 +1,14 @@
-package sqa.test;
-
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
 /*
- * Call stub to replace DistanceConverter
+ * Call Stub to replace DistanceConverter
  *
  * @author Asst.Prof.Chitsutha Soomlek, College of Computing, KKU
  * @version 1.1
  */
+
+import sqa.test.Stub;
 
 
 class testWithStub {

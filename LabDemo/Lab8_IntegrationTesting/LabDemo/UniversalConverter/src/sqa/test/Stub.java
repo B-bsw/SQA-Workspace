@@ -1,9 +1,7 @@
-package sqa.test;
-
 import sqa.main.DistanceConverter;
 
 /*
- * A stub for testing the UniveralConverter class
+ * A Stub for testing the UniveralConverter class
  * 
  * @author Asst.Prof.Chitsutha Soomlek, College of Computing, KKU
  * @version 1.1

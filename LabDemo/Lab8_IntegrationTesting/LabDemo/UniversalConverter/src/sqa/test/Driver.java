@@ -1,7 +1,3 @@
-package sqa.test;
-
-import sqa.main.UniversalConverter;
-
 /*
  * A driver for testing the UniveralConverter class
  * 
