@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a31746fa-32e8-4d4f-b0f0-3ad893771fa4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sqa/lab/api/MovieService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sqa/lab/model/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sqa/lab/service/NowPlaying.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MoviePortalStub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/NowPlayingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LabDemo/Lab9_TestDouble/mockito-junit-labdemo/src/test/java/sqa/lab/demo/data/stub/BookCatalogueServiceStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../LabDemo/Lab9_TestDouble/mockito-junit-labdemo/src/test/java/sqa/lab/demo/data/stub/BookCatalogueServiceStub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/service/GateCheckinTestWithMock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/service/SeatReservationTestWithMock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stub/MoviePortalStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stub/MoviePortalStub.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +41,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.GateCheckinTest.checkGateCheckinNumberOfCustomer.executor": "Run",
+    "JUnit.GateCheckinTestWithMock.executor": "Run",
     "JUnit.NowPlayingTest.test_nowPlaying_with_stub.executor": "Run",
+    "JUnit.SeatReservationTestWithMock.executor": "Run",
+    "JUnit.SeatReservationTestWithMockito.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -55,7 +55,38 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.GateCheckinTestWithMock">
+    <configuration name="GateCheckinTestWithMock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab09" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.GateCheckinTestWithMock" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GateCheckinTest.checkGateCheckinNumberOfCustomer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab09" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.GateCheckinTest" />
+      <option name="METHOD_NAME" value="checkGateCheckinNumberOfCustomer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NowPlayingTest.test_nowPlaying_with_stub" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab09" />
       <option name="PACKAGE_NAME" value="service" />
@@ -66,8 +97,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SeatReservationTestWithMock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab09" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.SeatReservationTestWithMock" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeatReservationTestWithMockito" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab09" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.SeatReservationTestWithMockito" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GateCheckinTestWithMock" />
+        <item itemvalue="JUnit.SeatReservationTestWithMock" />
+        <item itemvalue="JUnit.GateCheckinTest.checkGateCheckinNumberOfCustomer" />
+        <item itemvalue="JUnit.SeatReservationTestWithMockito" />
         <item itemvalue="JUnit.NowPlayingTest.test_nowPlaying_with_stub" />
       </list>
     </recent_temporary>
