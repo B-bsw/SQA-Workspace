@@ -1,5 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a31746fa-32e8-4d4f-b0f0-3ad893771fa4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sqa/lab/api/MovieService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sqa/lab/model/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sqa/lab/service/NowPlaying.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MoviePortalStub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/NowPlayingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LabDemo/Lab9_TestDouble/mockito-junit-labdemo/src/test/java/sqa/lab/demo/data/stub/BookCatalogueServiceStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../LabDemo/Lab9_TestDouble/mockito-junit-labdemo/src/test/java/sqa/lab/demo/data/stub/BookCatalogueServiceStub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
   <component name="ProjectId" id="3IGX3UntfIJ2j04nBjPPgcKyxmB" />
-  <component name="PropertiesComponent">{}</component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.NowPlayingTest.test_nowPlaying_with_stub.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="NowPlayingTest.test_nowPlaying_with_stub" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab09" />
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.NowPlayingTest" />
+      <option name="METHOD_NAME" value="test_nowPlaying_with_stub" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.NowPlayingTest.test_nowPlaying_with_stub" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a31746fa-32e8-4d4f-b0f0-3ad893771fa4" name="Changes" comment="" />
+      <created>1787391680063</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1787391680063</updated>
+    </task>
+    <servers />
+  </component>
 </project>
