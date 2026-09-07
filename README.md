@@ -4,13 +4,15 @@ workspace/
   │   ├── lab03
   │   ├── lab04
   |   ├── lab05
-  |   └── Lab06
+  |   ├── Lab06
+  |   └── Lab08
   ├── Lab // งานใน Lab
   │   ├── lab03-01
   │   ├── lab04
   │   ├── Lab05
   │   ├── Lab06
-  │   └── Lab08
+  │   ├── Lab08
+  │   └── Lab09
   ├── LabAssignment // งานที่ได้รับหมอบหมาย
   │   ├── Lab3_JUnitTest
   │   ├── Lab4_BVT
