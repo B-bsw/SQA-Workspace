@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.14.2 on darwin)" generated="2026-09-08T16:32:34.358006" rpa="false" schemaversion="5">
+<suite id="s1" name="UAT-02" source="/Users/bb/Desktop/class/SQA/workspace/Lab/Lab11/UAT02/UAT-02.robot">
+<test id="s1-t1" name="Go To Browser" line="9">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-09-08T16:32:34.478682" level="INFO">Opening browser 'chrome' to base url 'http://sampleapp.tricentis.com'.</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-09-08T16:32:34.478547" elapsed="10.473580"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-09-08T16:32:44.952832" elapsed="0.355256"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>id=nav_automobile</arg>
+<arg>timeout=10s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-09-08T16:32:45.308250" elapsed="0.008382"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2026-09-08T16:32:45.316908" level="INFO">Clicking link 'id=nav_automobile'.</msg>
+<arg>id=nav_automobile</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-08T16:32:45.316765" elapsed="4.297889"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-09-08T16:32:49.615094" level="INFO">Clicking button 'nextenterinsurantdata'.</msg>
+<arg>nextenterinsurantdata</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-08T16:32:49.614894" elapsed="0.032969"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-09-08T16:32:49.648183" level="INFO">Clicking button 'nextenterproductdata'.</msg>
+<arg>nextenterproductdata</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-08T16:32:49.648021" elapsed="0.025908"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-09-08T16:32:49.674196" level="INFO">Clicking button 'nextselectpriceoption'.</msg>
+<arg>nextselectpriceoption</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-08T16:32:49.674069" elapsed="0.027120"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-09-08T16:32:49.701698" level="INFO">Clicking button 'nextsendquote'.</msg>
+<msg time="2026-09-08T16:32:49.789497" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-2.png"&gt;&lt;img src="selenium-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-09-08T16:32:49.789644" level="FAIL">ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=152.0.7977.82); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+0   chromedriver                        0x0000000102b04e04 chromedriver + 3444228
+1   chromedriver                        0x00000001028011c0 chromedriver + 283072
+2   chromedriver                        0x000000010284b1fc chromedriver + 586236
+3   chromedriver                        0x0000000102841110 chromedriver + 545040
+4   chromedriver                        0x0000000102840b94 chromedriver + 543636
+5   chromedriver                        0x0000000102888f70 chromedriver + 839536
+6   chromedriver                        0x000000010283f7bc chromedriver + 538556
+7   chromedriver                        0x0000000102ad520c chromedriver + 3248652
+8   chromedriver                        0x0000000102ad8244 chromedriver + 3260996
+9   chromedriver                        0x0000000102abed88 chromedriver + 3157384
+10  chromedriver                        0x0000000102ad8b14 chromedriver + 3263252
+11  chromedriver                        0x0000000102ab2b38 chromedriver + 3107640
+12  chromedriver                        0x0000000102af3e44 chromedriver + 3374660
+13  chromedriver                        0x0000000102af3fa4 chromedriver + 3375012
+14  chromedriver                        0x0000000102b04aa0 chromedriver + 3443360
+15  libsystem_pthread.dylib             0x000000018373bc54 _pthread_start + 132
+16  libsystem_pthread.dylib             0x0000000183736c18 thread_start + 4
+</msg>
+<arg>nextsendquote</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="FAIL" start="2026-09-08T16:32:49.701434" elapsed="0.090587">ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=152.0.7977.82); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+0   chromedriver                        0x0000000102b04e04 chromedriver + 3444228
+1   chromedriver                        0x00000001028011c0 chromedriver + 283072
+2   chromedriver                        0x000000010284b1fc chromedriver + 586236
+3   chromedriver                        0x0000000102841110 chromedriver + 545040
+4   chromedriver                        0x0000000102840b94 chromedriver + 543636
+5   chromedriver                        0x0000000102888f70 chromedriver + 839536
+6   chromedriver                        0x000000010283f7bc chromedriver + 538556
+7   chromedriver                        0x0000000102ad520c chromedriver + 3248652
+8   chromedriver                        0x0000000102ad8244 chromedriver + 3260996
+9   chromedriver                        0x0000000102abed88 chromedriver + 3157384
+10  chromedriver                        0x0000000102ad8b14 chromedriver + 3263252
+11  chromedriver                        0x0000000102ab2b38 chromedriver + 3107640
+12  chromedriver                        0x0000000102af3e44 chromedriver + 3374660
+13  chromedriver                        0x0000000102af3fa4 chromedriver + 3375012
+14  chromedriver                        0x0000000102b04aa0 chromedriver + 3443360
+15  libsystem_pthread.dylib             0x000000018373bc54 _pthread_start + 132
+16  libsystem_pthread.dylib             0x0000000183736c18 thread_start + 4
+</status>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<arg>sendemail</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="NOT RUN" start="2026-09-08T16:32:49.792178" elapsed="0.000022"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2026-09-08T16:32:49.792290" elapsed="0.000012"/>
+</kw>
+<status status="FAIL" start="2026-09-08T16:32:34.478092" elapsed="15.314393">ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=152.0.7977.82); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+0   chromedriver                        0x0000000102b04e04 chromedriver + 3444228
+1   chromedriver                        0x00000001028011c0 chromedriver + 283072
+2   chromedriver                        0x000000010284b1fc chromedriver + 586236
+3   chromedriver                        0x0000000102841110 chromedriver + 545040
+4   chromedriver                        0x0000000102840b94 chromedriver + 543636
+5   chromedriver                        0x0000000102888f70 chromedriver + 839536
+6   chromedriver                        0x000000010283f7bc chromedriver + 538556
+7   chromedriver                        0x0000000102ad520c chromedriver + 3248652
+8   chromedriver                        0x0000000102ad8244 chromedriver + 3260996
+9   chromedriver                        0x0000000102abed88 chromedriver + 3157384
+10  chromedriver                        0x0000000102ad8b14 chromedriver + 3263252
+11  chromedriver                        0x0000000102ab2b38 chromedriver + 3107640
+12  chromedriver                        0x0000000102af3e44 chromedriver + 3374660
+13  chromedriver                        0x0000000102af3fa4 chromedriver + 3375012
+14  chromedriver                        0x0000000102b04aa0 chromedriver + 3443360
+15  libsystem_pthread.dylib             0x000000018373bc54 _pthread_start + 132
+16  libsystem_pthread.dylib             0x0000000183736c18 thread_start + 4
+</status>
+</test>
+<status status="FAIL" start="2026-09-08T16:32:34.358524" elapsed="15.434318"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="UAT-02" id="s1" pass="0" fail="1" skip="0">UAT-02</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
