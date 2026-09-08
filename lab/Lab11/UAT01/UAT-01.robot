@@ -9,19 +9,21 @@ ${URL}    http://sampleapp.tricentis.com
 Go To Browser
     Open Browser    ${URL}    ${BROWSER}
     Maximize Browser Window
+
     Wait Until Element Is Visible   id=nav_automobile   timeout=10s
     Click Link    id=nav_automobile
+
     Input Nav_automobile
-    Click Button    nextenterinsurantdata
+
     Input Enterinsurantdata
-    Click Button    nextenterproductdata
+
     Input Enterproductdata
-    Click Button    nextselectpriceoption
+
     Input Selectpriceoption
-    Click Button    nextsendquote
+
     Input Send Quote
-    Click Button    sendemail
-    Sleep    5s
+
+    [Teardown]    Close Browser
 
 *** Keywords ***
 Input Nav_automobile
@@ -34,6 +36,9 @@ Input Nav_automobile
     Input Text    id=listprice    30000
     Input Text    id=licenseplatenumber    CKK1234
     Input Text    id=annualmileage    10000
+
+    Wait Until Element Is Visible    id=nextenterinsurantdata    timeout=10s
+    Click Button    nextenterinsurantdata
 Input Enterinsurantdata
     Wait Until Element Is Visible    id=firstname   timeout=10s
     Input Text    id=firstname    Wichai
@@ -46,17 +51,26 @@ Input Enterinsurantdata
     Input Text    id=city    Khon Kaen
     Select From List By Label   id=occupation    Employee
     Click Element    xpath=//input[@id='other']/parent::label
+
+    Wait Until Element Is Visible    id=nextenterproductdata    timeout=10s
+    Click Button    nextenterproductdata
 Input Enterproductdata
     Wait Until Element Is Visible    id=startdate   timeout=10s
-    Input Text    id=startdate    10/1/2026
+    Input Text    id=startdate    10/10/2026
     Select From List By Label   id=insurancesum    7.000.000,00
     Select From List By Label   id=meritrating    Bonus 1
     Select From List By Label   id=damageinsurance    No Coverage
     Click Element    xpath=//input[@id='EuroProtection']/parent::label
     Select From List By Label   id=courtesycar    Yes
+
+    Wait Until Element Is Visible    id=nextselectpriceoption    timeout=10s
+    Click Button    nextselectpriceoption
 Input Selectpriceoption
     Wait Until Element Is Visible    xpath=//input[@id='selectsilver']/parent::label   timeout=10s
     Click Element    xpath=//input[@id='selectsilver']/parent::label
+
+    Wait Until Element Is Visible    id=nextsendquote    timeout=10s
+    Click Button    nextsendquote
 Input Send Quote
     Wait Until Element Is Visible    id=email   timeout=10s
     Input Text    id=email    wichai.sandee@gmail.com
@@ -65,3 +79,6 @@ Input Send Quote
     Input Text    id=password    SecretPassword123!
     Input Text    id=confirmpassword    SecretPassword123!
     Input Text    id=Comments    Please contact via email only
+
+    Wait Until Element Is Visible    id=sendemail    timeout=10s
+    Click Button    sendemail
